@@ -9,6 +9,7 @@ Error generating stack: `+i.message+`
           mutation DetailsMutation($input: DetailsMutationInput!) {
             mtgObjectDetails(input: $input) {
               mtgObjectDetail {
+                status
                 type
                 title
                 uuid
